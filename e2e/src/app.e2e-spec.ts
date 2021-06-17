@@ -1,6 +1,6 @@
 import {AppPage} from './app.po';
 
-describe('ng-three-template App', () => {
+describe('CandyThreeJSPlayGround App', () => {
   let page: AppPage;
 
   beforeEach(() => {

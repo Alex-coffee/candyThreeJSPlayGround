@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-three-template": {
+    "CandyThreeJSPlayGround": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -75,18 +75,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng-three-template:build"
+            "browserTarget": "CandyThreeJSPlayGround:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-three-template:build:production"
+              "browserTarget": "CandyThreeJSPlayGround:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-three-template:build"
+            "browserTarget": "CandyThreeJSPlayGround:build"
           }
         },
         "test": {
@@ -120,7 +120,7 @@
         }
       }
     },
-    "ng-three-template-e2e": {
+    "CandyThreeJSPlayGround-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -129,7 +129,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "ng-three-template:serve"
+            "devServerTarget": "CandyThreeJSPlayGround:serve"
           },
           "configurations": {
             "production": {
@@ -149,7 +149,7 @@
       }
     }
   },
-  "defaultProject": "ng-three-template",
+  "defaultProject": "CandyThreeJSPlayGround",
   "cli": {
     "analytics": "58212eb1-d08c-4e42-a8dd-b0fc0d26b8d1"
   }
